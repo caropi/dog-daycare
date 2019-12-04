@@ -1,0 +1,17 @@
+.carousel {
+    &__card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &--copy-container {
+            width: 70%;
+        }
+
+        &--profile-img {
+            width: 25%;
+            max-width: 150px;
+        }
+    }
+
+}

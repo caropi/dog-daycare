@@ -11,4 +11,10 @@
     &__img {
         max-width: 60px;
     }
+
+    &__list-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
