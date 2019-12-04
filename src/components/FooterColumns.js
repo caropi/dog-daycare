@@ -3,7 +3,7 @@ import CommonButton from "./CommonButton";
 
 const FooterColumns = () => {
     return (
-      <>
+      <div className="footer__container">
         <div className="footer__column">
           <h3 className="footer__column--title">Solutions</h3>
           <ul className="footer__column--list">
@@ -186,7 +186,7 @@ const FooterColumns = () => {
             </li>
           </ul>
         </div>
-      </>
+      </div>
     );
 }
 
