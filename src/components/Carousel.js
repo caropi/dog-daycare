@@ -1,7 +1,7 @@
 import React from 'react'
 import Slider from "react-slick";
-
-export const Carousel = () => {
+import CarouselCard from './CarouselCard';
+const Carousel = () => {
     const settings = {
       accessibility: true,
       arrows: false,
@@ -36,9 +36,9 @@ export const Carousel = () => {
         },
         {
             name: 'Gilda',
-            title: '',
-            location: '',
-            testimonial: ''
+            title: 'House Cat',
+            location: 'Still at home',
+            testimonial: `A bit jealous of my fellow dog companions `
         },
         {
             name: 'Harold',
@@ -48,10 +48,12 @@ export const Carousel = () => {
         }
     ]
     return (
-        <div>
+        <section className="carousel">
             <Slider {...settings}>
-
+                <CarouselCard users={users}/>
             </Slider>
-        </div>
+        </section>
     )
 }
+
+export default Carousel

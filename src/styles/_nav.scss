@@ -1,0 +1,10 @@
+.nav {
+    &__container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__img {
+        width: 40px;
+    }
+}
