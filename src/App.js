@@ -3,7 +3,7 @@ import './styles/styles.scss';
 import Hero from './components/Hero';
 import Header from './components/Header';
 import Carousel from './components/Carousel'
-
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
@@ -24,6 +24,7 @@ function App() {
         </svg>
       </header>
       <Carousel />
+      <Footer/>
     </div>
   );
 }
