@@ -15,6 +15,16 @@
         margin-right: 4%;
     }
 
+    &__logo--title {
+        color: $teal;
+        font-weight: normal;
+        font-family: 'Solway';
+
+        &--span {
+            color: $orange;
+        }
+    }
+
     &__logo--link {
         display: flex;
         flex-direction: row;

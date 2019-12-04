@@ -11,4 +11,15 @@
     }
 }
 
-.logged-out {}
+.logged-out {
+    background: white;
+    border: 2.5px solid $primary;
+    color: $primary;
+
+    &:hover {
+        background: white;
+        border: 2.5px solid $green;
+        color: $green;
+
+    }
+}

@@ -11,24 +11,25 @@ const Header = () => {
                     </h2>
                 </a>
             <div className="nav__list-container">
-                    <ul>
-                        <li>
+                    <ul className='nav__list-container--list'>
+                        <li className="nav__list-container--list-item">
                             <a href="https://www.himama.com/">
                                 Who Uses WoofMama
                             </a>
                         </li>
-                        <li>
+                        <li className="nav__list-container--list-item">
                             <a href="https://www.himama.com/">
                                 Features
                             </a>
                         </li>
-                        <li>
+                        <li className="nav__list-container--list-item">
                             <a href="https://www.himama.com/">
                                 Resources
                             </a>
                         </li>
                     </ul>
                     <CommonButton btnClass={'common-button'} text="Start Now"/>
+                    {/* Button class could change to logged-in onClick if hooked up to state */}
                     <CommonButton btnClass={'common-button logged-out'} text="Log In"/>
             </div>
             </nav>
