@@ -4,31 +4,33 @@ const Header = () => {
     return (
         <div className="nav">
             <nav className="wrapper nav__container">
-                <a href="https://www.himama.com/">
+                <a href="https://www.himama.com/" className="nav__logo--link">
                     <img src="logomobile.png" alt="WoofMama logo" className="nav__img" />
-                    <h2 className="nav__logo">
-                        woof<span className="nav__logo--span">mama</span>
+                    <h2 className="nav__logo--title">
+                        woof<span className="nav__logo--title--span">mama</span>
                     </h2>
                 </a>
-                <ul>
-                    <li>
-                        <a href="https://www.himama.com/">
-                            Who Uses WoofMama
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.himama.com/">
-                            Features
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.himama.com/">
-                            Resources
-                        </a>
-                    </li>
-                </ul>
-                <CommonButton text="Start Now"/>
-                <CommonButton text="Log In"/>
+            <div className="nav__list-container">
+                    <ul>
+                        <li>
+                            <a href="https://www.himama.com/">
+                                Who Uses WoofMama
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.himama.com/">
+                                Features
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.himama.com/">
+                                Resources
+                            </a>
+                        </li>
+                    </ul>
+                    <CommonButton text="Start Now"/>
+                    <CommonButton text="Log In"/>
+            </div>
             </nav>
         </div>
     );
