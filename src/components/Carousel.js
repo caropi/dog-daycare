@@ -4,7 +4,7 @@ import Slider from "react-slick";
 const Carousel = () => {
     const settings = {
       accessibility: true,
-      arrows: false,
+      arrows: true,
       infinite: true,
       lazyLoad: true,
       pauseOnDotsHover: true,

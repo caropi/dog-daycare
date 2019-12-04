@@ -1,6 +1,8 @@
 .nav {
     background: white;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    padding: 3% 0;
+    color: $blue;
 
     &__container {
         display: flex;
@@ -10,6 +12,13 @@
 
     &__img {
         max-width: 60px;
+        margin-right: 4%;
+    }
+
+    &__logo--link {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
     &__list-container {

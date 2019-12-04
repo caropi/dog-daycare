@@ -28,8 +28,8 @@ const Header = () => {
                             </a>
                         </li>
                     </ul>
-                    <CommonButton text="Start Now"/>
-                    <CommonButton text="Log In"/>
+                    <CommonButton btnClass={'common-button'} text="Start Now"/>
+                    <CommonButton btnClass={'common-button logged-out'} text="Log In"/>
             </div>
             </nav>
         </div>
