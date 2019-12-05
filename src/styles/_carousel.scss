@@ -33,6 +33,10 @@
     font-size: 30px;
     opacity: 0.45 !important;
     transition: 0.3s all ease-in-out;
+
+    &:hover {
+        opacity: 0.75 !important;
+    }
 }
 
 .slick-next {

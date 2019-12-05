@@ -51,9 +51,9 @@ const Carousel = () => {
       {
         id: 5,
         name: "Harold",
-        title: "",
-        location: "",
-        testimonial: ``,
+        title: "Chief of having a blast",
+        location: "Toronto Doggo Auto Club",
+        testimonial: `Dog owners and fellow dogs are jazzed about the how efficient we've become`,
         img: `havingablast.jpeg`
       }
     ];
