@@ -84,4 +84,35 @@
             font-size: 1.563vw;
         }
     }
+
+    @media (max-width: 620px) {
+        &__container {
+            flex-wrap: wrap;
+        }
+
+        .nav__logo--title {
+            font-size: 4.839vw;
+        }
+
+        .nav__list-container--list-item a {
+            font-size: 2.581vw;
+        }
+
+        .nav__list-container--list-item {
+            margin-bottom: 2%;
+        }
+
+        &__list-container {
+            justify-content: flex-end;
+            width: 60vw;
+
+            .common-button {
+                margin-left: 3%;
+            }
+        }
+
+        .mobileOnly {
+            width: 100%;
+        }
+    }
 }

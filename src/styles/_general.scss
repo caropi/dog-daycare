@@ -23,3 +23,17 @@ a {
 li {
     list-style-type: none;
 }
+
+.mobileOnly {
+    display: none;
+
+    @media (max-width: 620px) {
+        display: flex;
+    }
+}
+
+.desktopOnly {
+    @media (max-width: 620px) {
+        display: none !important;
+    }
+}
