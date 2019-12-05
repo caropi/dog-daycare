@@ -64,6 +64,18 @@
         }
     }
 
+    @media (max-width: 1024px) {
+        &__card {
+            &--copy-container {
+                padding: 5%;
+
+            }
+        }
+
+        p {
+            font-size: 1.563vw;
+        }
+    }
 }
 
 .slick-prev:before,

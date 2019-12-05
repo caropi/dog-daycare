@@ -13,6 +13,10 @@
         background: $blue;
         border: 2.5px solid $blue;
     }
+
+    @media (max-width: 1024px) {
+        font-size: 1.563vw;
+    }
 }
 
 .logged-out {

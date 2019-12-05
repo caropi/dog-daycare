@@ -77,4 +77,15 @@ footer {
         }
     }
 
+    @media (max-width: 1024px) {
+
+        a,
+        p {
+            font-size: 1.563vw;
+        }
+
+        .footer__column--title {
+            font-size: 1.758vw;
+        }
+    }
 }

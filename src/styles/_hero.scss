@@ -23,6 +23,22 @@
             color: $gray-dark;
         }
     }
+
+    @media (max-width: 1024px) {
+        padding-top: 15vw;
+
+        &__copy-container {
+            width: 40%;
+
+            &--title {
+                font-size: 3.711vw;
+            }
+
+            &--text {
+                font-size: 1.563vw;
+            }
+        }
+    }
 }
 
 .hero-curve {

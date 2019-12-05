@@ -13,7 +13,15 @@ const Carousel = () => {
       slidesToScroll: 1,
       autoplay: true,
       pauseOnHover: true,
-      swipeToSlide: true
+      swipeToSlide: true,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            arrows: false
+          }
+        }
+      ]
     };
     const users = [
       {

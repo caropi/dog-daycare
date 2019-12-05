@@ -74,4 +74,14 @@
             }
         }
     }
+
+    @media (max-width: 1024px) {
+        .nav__logo--title {
+            font-size: 2.930vw;
+        }
+
+        .nav__list-container--list-item a {
+            font-size: 1.563vw;
+        }
+    }
 }
