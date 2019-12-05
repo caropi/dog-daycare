@@ -37,7 +37,7 @@ const Carousel = () => {
         name: "Jenny",
         title: "Cheif of Eye Contact",
         location: `Happy Tails`,
-        testimonial: `I spend most of my days making aggressive eye contact with every dog that comes through our doggy daycare. Where can I find the time to do basic admin work? `,
+        testimonial: `I spend most of my days making aggressive eye contact with every dog that comes through our doggy daycare. Where can I find the time to do basic admin work? Luckily, WoofMama has allowed me to get everything I need to get done, and still have time to stare into the eyes of every dog`,
         img: `kiss.jpg`
       },
       {

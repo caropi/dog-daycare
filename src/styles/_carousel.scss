@@ -2,7 +2,7 @@
     &__card {
         display: flex !important;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
 
         &--copy-container {
             width: 60%;
@@ -25,4 +25,20 @@
         }
     }
 
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: $grey !important;
+    font-size: 30px;
+    opacity: 0.45 !important;
+    transition: 0.3s all ease-in-out;
+}
+
+.slick-next {
+    right: -40px !important;
+}
+
+.slick-prev {
+    left: -40px !important;
 }
