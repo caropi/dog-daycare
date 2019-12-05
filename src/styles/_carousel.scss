@@ -8,13 +8,21 @@
             width: 60%;
             display: inline;
             position: relative;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-right: 5%;
 
             &:before {
-                content: '“';
+                content: '🐾';
+                transform: rotate(-75deg);
+                position: absolute;
+                left: 0;
+                top: 0;
             }
 
             &:after {
-                content: '”';
+                content: '🐾';
             }
         }
 

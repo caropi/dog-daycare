@@ -53,7 +53,7 @@ const Carousel = () => {
         name: "Harold",
         title: "Chief of having a blast",
         location: "Toronto Doggo Auto Club",
-        testimonial: `Dog owners and fellow dogs are jazzed about the how efficient we've become`,
+        testimonial: `Dog owners and fellow dogs are jazzed about the how efficient we've become. It's allowed us to add joy rides in expensive cars in addition to services like dog walks and play time.`,
         img: `havingablast.jpeg`
       }
     ];
