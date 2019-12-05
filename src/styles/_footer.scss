@@ -2,5 +2,40 @@ footer {
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans';
-    background: lighten($success, 10%)
+    background: lighten($success, 10%);
+    padding-top: 4%;
+    position: relative;
+
+    .footer {
+
+        &__container {
+            display: flex;
+            flex-direction: row;
+
+            .dog-walker {
+                opacity: 0.4;
+                position: absolute;
+                width: 30vw;
+                z-index: 0;
+                right: 10%;
+            }
+        }
+
+        &__column {
+            z-index: 10;
+            flex: 1;
+
+            &--title {
+                font-family: 'Open Sans';
+                font-size: 18px;
+            }
+
+            &--list {
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+    }
+
 }
