@@ -65,6 +65,8 @@
     }
 
     @media (max-width: 1024px) {
+        padding-bottom: 11%;
+
         &__card {
             &--copy-container {
                 padding: 5%;
@@ -74,6 +76,28 @@
 
         p {
             font-size: 1.563vw;
+        }
+    }
+
+    @media (max-width: 620px) {
+        &__card {
+            flex-direction: column-reverse;
+            align-items: center;
+
+            &--copy-container {
+                width: 85%;
+                padding: 8%;
+            }
+
+            &--profile-img {
+                margin-bottom: -5vw;
+                z-index: 10;
+                width: 35%;
+            }
+        }
+
+        p {
+            font-size: 2.581vw;
         }
     }
 }
