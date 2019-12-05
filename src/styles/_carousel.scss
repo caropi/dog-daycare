@@ -87,6 +87,15 @@
             &--copy-container {
                 width: 85%;
                 padding: 8%;
+                margin-right: 0;
+
+                &:before {
+                    top: -15%;
+                }
+
+                &:after {
+                    bottom: -15%;
+                }
             }
 
             &--profile-img {
