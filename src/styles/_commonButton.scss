@@ -5,11 +5,13 @@
     color: white;
     border: none;
     background: $teal;
+    border: 2.5px solid $teal;
     font-family: 'Open Sans';
     font-weight: bolder;
 
     &:hover {
         background: $blue;
+        border: 2.5px solid $blue;
     }
 }
 

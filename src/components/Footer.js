@@ -4,8 +4,9 @@ import Copyright from './Copyright';
 const Footer = () => {
     return (
       <footer>
-          <FooterColumns/>
-          <Copyright/>
+
+        <FooterColumns />
+        <Copyright />
       </footer>
     );
 }

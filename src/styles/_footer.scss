@@ -1,0 +1,6 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans';
+    background: lighten($success, 10%)
+}
