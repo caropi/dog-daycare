@@ -11,13 +11,15 @@ footer {
         &__container {
             display: flex;
             flex-direction: row;
+            position: relative;
 
             .dog-walker {
-                opacity: 0.4;
+                opacity: 0.3;
                 position: absolute;
-                width: 30vw;
+                height: 130%;
                 z-index: 0;
-                right: 10%;
+                right: 0;
+                bottom: -10%;
             }
         }
 
@@ -28,14 +30,51 @@ footer {
             &--title {
                 font-family: 'Open Sans';
                 font-size: 18px;
+                letter-spacing: 0.07em;
+                margin-bottom: 5%;
             }
 
             &--list {
                 margin: 0;
                 padding: 0;
+
+                &-item {
+                    &-link {
+                        color: $gray;
+                        letter-spacing: 0.03em;
+                        line-height: 1.6;
+                    }
+                }
+
+                p {
+                    margin: 4% 0;
+                }
             }
         }
 
+        &__copyright {
+            border-top: 1px solid $gray;
+            margin: 3% auto;
+
+            &--list {
+                padding: 0;
+                display: flex;
+                flex-direction: row;
+
+                &-item {
+                    margin-right: 2%;
+
+                    a {
+                        color: $gray;
+                        letter-spacing: 0.03em;
+                    }
+                }
+            }
+
+            p {
+                letter-spacing: 0.04em;
+            }
+        }
     }
 
 }

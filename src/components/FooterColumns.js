@@ -177,7 +177,7 @@ const FooterColumns = () => {
           <h3 className="footer__column--title">Contact Sales</h3>
           <ul className="footer__column--list">
             <li className="footer__column--list-item">
-              <CommonButton text="Request a call" />
+              <CommonButton btnClass="common-button contact-btn" text="Request a call" />
             </li>
 
             <li className="footer__column--list-item">

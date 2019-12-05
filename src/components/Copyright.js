@@ -2,7 +2,7 @@ import React from 'react'
 
 const Copyright = () => {
     return (
-      <div className="footer__copyright">
+      <div className="footer__copyright wrapper">
         <ul className="footer__copyright--list">
           <li className="footer__copyright--list-item">
             <a href="https://www.himama.com/">Home</a>

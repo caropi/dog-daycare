@@ -14,14 +14,15 @@
     }
 
     &__img {
-        max-width: 60px;
-        margin-right: 4%;
+        max-width: 45px;
+        margin-right: 2%;
     }
 
     &__logo--title {
         color: $teal;
         font-weight: normal;
         font-family: 'Solway';
+        font-size: 30px;
 
         &--span {
             color: $orange;
@@ -51,7 +52,6 @@
             justify-content: space-around;
 
             &-item {
-                padding-right: 2.5%;
 
                 a {
                     position: relative;
