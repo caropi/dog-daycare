@@ -25,10 +25,10 @@ li {
 }
 
 .mobileOnly {
-    display: none;
+    display: none !important;
 
     @media (max-width: 620px) {
-        display: flex;
+        display: flex !important;
     }
 }
 
