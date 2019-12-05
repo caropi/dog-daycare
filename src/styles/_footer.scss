@@ -88,4 +88,33 @@ footer {
             font-size: 1.758vw;
         }
     }
+
+    @media (max-width: 620px) {
+        .footer {
+            &__container {
+                flex-wrap: wrap;
+
+                .dog-walker {
+                    bottom: 0;
+                    opacity: 0.2;
+                    height: 50vw;
+                }
+            }
+
+            &__column {
+                flex: auto;
+                width: 33%;
+                text-align: center;
+
+                &--title {
+                    font-size: 3.226vw;
+                }
+            }
+        }
+
+        a,
+        p {
+            font-size: 2.903vw;
+        }
+    }
 }
