@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/dog-daycare/static/css/main.57084973.chunk.css",
-    "main.js": "/dog-daycare/static/js/main.b65ad5df.chunk.js",
-    "main.js.map": "/dog-daycare/static/js/main.b65ad5df.chunk.js.map",
+    "main.css": "/dog-daycare/static/css/main.33a358ed.chunk.css",
+    "main.js": "/dog-daycare/static/js/main.91cb5c44.chunk.js",
+    "main.js.map": "/dog-daycare/static/js/main.91cb5c44.chunk.js.map",
     "runtime-main.js": "/dog-daycare/static/js/runtime-main.2e257b0e.js",
     "runtime-main.js.map": "/dog-daycare/static/js/runtime-main.2e257b0e.js.map",
     "static/js/2.e2c8d448.chunk.js": "/dog-daycare/static/js/2.e2c8d448.chunk.js",
     "static/js/2.e2c8d448.chunk.js.map": "/dog-daycare/static/js/2.e2c8d448.chunk.js.map",
     "index.html": "/dog-daycare/index.html",
-    "precache-manifest.8f3453d2f69dc5e1b65f0d45032d16ef.js": "/dog-daycare/precache-manifest.8f3453d2f69dc5e1b65f0d45032d16ef.js",
+    "precache-manifest.bf81474f7b311802e02862b7464a0706.js": "/dog-daycare/precache-manifest.bf81474f7b311802e02862b7464a0706.js",
     "service-worker.js": "/dog-daycare/service-worker.js",
-    "static/css/main.57084973.chunk.css.map": "/dog-daycare/static/css/main.57084973.chunk.css.map"
+    "static/css/main.33a358ed.chunk.css.map": "/dog-daycare/static/css/main.33a358ed.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.2e257b0e.js",
     "static/js/2.e2c8d448.chunk.js",
-    "static/css/main.57084973.chunk.css",
-    "static/js/main.b65ad5df.chunk.js"
+    "static/css/main.33a358ed.chunk.css",
+    "static/js/main.91cb5c44.chunk.js"
   ]
 }
