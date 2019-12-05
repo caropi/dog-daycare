@@ -28,14 +28,14 @@ const Carousel = () => {
         id: 2,
         name: "Sylvia",
         title: "Dog Minder",
-        location: "Bark &amp; Fitz",
+        location: "Bark & Fitz",
         testimonial: `When I'm not posing for photos laughing in my dogs face I am using WoofMama. Taking care of several dogs is not easy and WoofMama is a one-stop shop to let me take care of business, giving me more time to laugh in my dogs face.`,
         img: `laughing.jpg`
       },
       {
         id: 3,
         name: "Jenny",
-        title: "Cheif of Eye Contact",
+        title: "Chief of Eye Contact",
         location: `Happy Tails`,
         testimonial: `I spend most of my days making aggressive eye contact with every dog that comes through our doggy daycare. Where can I find the time to do basic admin work? Luckily, WoofMama has allowed me to get everything I need to get done, and still have time to stare into the eyes of every dog`,
         img: `kiss.jpg`

@@ -1,11 +1,12 @@
 .common-button {
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 2% 5%;
     transition: 0.3s all ease-in-out;
     color: white;
     border: none;
     background: $teal;
     font-family: 'Open Sans';
+    font-weight: bolder;
 
     &:hover {
         background: $blue;

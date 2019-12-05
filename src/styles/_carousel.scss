@@ -3,6 +3,7 @@
         display: flex !important;
         flex-direction: row;
         justify-content: center;
+        margin: 5% 0;
 
         &--copy-container {
             width: 60%;
@@ -11,19 +12,46 @@
             display: flex;
             justify-content: center;
             flex-direction: column;
+            background: $success;
+            padding: 3%;
+            border-radius: 15px;
             margin-right: 5%;
+            font-family: 'Open Sans';
+
+            p {
+                margin: 1% 0;
+            }
+
+            &:before,
+            &:after {
+                position: absolute;
+                font-size: 55px;
+                content: '🐾';
+            }
 
             &:before {
-                content: '🐾';
-                transform: rotate(-75deg);
-                position: absolute;
-                left: 0;
-                top: 0;
+                transform: rotate(-80deg);
+                left: -5%;
+                top: 5%;
             }
 
             &:after {
-                content: '🐾';
+                transform: rotate(110deg);
+                bottom: -2%;
+                right: -3%;
+                color: $orange;
             }
+        }
+
+        &--info-name {
+            font-weight: bolder;
+        }
+
+        &--info,
+        &--location {
+            text-align: right;
+            margin-right: 6% !important;
+
         }
 
         &--profile-img {
